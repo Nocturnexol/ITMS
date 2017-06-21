@@ -1,8 +1,0 @@
-C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Model\bin\Debug\Bitshare.PTMMHZ.Model.dll
-C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Model\bin\Debug\Bitshare.PTMMHZ.Model.pdb
-C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Model\obj\Debug\Bitshare.PTMMHZ.Model.dll
-C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Model\obj\Debug\Bitshare.PTMMHZ.Model.pdb
-C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.PTMMHZ.Model\bin\Debug\Bitshare.PTMMHZ.Model.dll
-C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.PTMMHZ.Model\bin\Debug\Bitshare.PTMMHZ.Model.pdb
-C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.PTMMHZ.Model\obj\Debug\Bitshare.PTMMHZ.Model.dll
-C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.PTMMHZ.Model\obj\Debug\Bitshare.PTMMHZ.Model.pdb
