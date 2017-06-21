@@ -1,0 +1,15 @@
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\Bitshare.PTMMHZ.Common.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\Bitshare.PTMMHZ.Common.pdb
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\Bitshare.Common.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\NPOI.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\NPOI.OOXML.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\NPOI.OpenXml4Net.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\OpenSmtp.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\Excel.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\COM.Excel.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\bin\Debug\Bitshare.Common.pdb
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\obj\Debug\Bitshare.PTMMHZ.Common.csprojResolveAssemblyReference.cache
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\obj\Debug\Bitshare.PTMMHZ.Common.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PTMMHZ.Common\obj\Debug\Bitshare.PTMMHZ.Common.pdb

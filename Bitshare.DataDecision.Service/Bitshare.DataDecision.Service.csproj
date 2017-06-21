@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3FD6500-BBF8-482B-843E-9F0628A5E672}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bitshare.DataDecision.Service</RootNamespace>
+    <AssemblyName>Bitshare.DataDecision.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonHelper.cs" />
+    <Compile Include="DTO\DesignTotal.cs" />
+    <Compile Include="DTO\GridConfig.cs" />
+    <Compile Include="DTO\OaccupyPageModel.cs" />
+    <Compile Include="DTO\PageData.cs" />
+    <Compile Include="DTO\PageInfo.cs" />
+    <Compile Include="DTO\PageResult.cs" />
+    <Compile Include="DTO\ProcessListModel.cs" />
+    <Compile Include="DTO\ReturnMessageModel.cs" />
+    <Compile Include="DTO\SubPageResult.cs" />
+    <Compile Include="Enum\AdOrderTypeEnum.cs" />
+    <Compile Include="Enum\AuthEnum.cs" />
+    <Compile Include="Enum\BasicTypeEnum.cs" />
+    <Compile Include="Enum\StatusCodeEnum.cs" />
+    <Compile Include="Enum\VehicleRepairEnum.cs" />
+    <Compile Include="Helper\BusinessContext.cs.cs" />
+    <Compile Include="Helper\OperateLogHelper.cs" />
+    <Compile Include="IBaseService.cs" />
+    <Compile Include="ICommonService.cs" />
+    <Compile Include="Impl\BaseService.cs" />
+    <Compile Include="Impl\CommonService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bitshare.Common\Bitshare.Common.csproj">
+      <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
+      <Name>Bitshare.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bitshare.DataDecision.BLL\Bitshare.DataDecision.BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>Bitshare.DataDecision.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bitshare.DataDecision.Common\Bitshare.DataDecision.Common.csproj">
+      <Project>{3DD7554F-07F8-417E-A5FC-5E4D4F70CE17}</Project>
+      <Name>Bitshare.DataDecision.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bitshare.DataDecision.DAL\Bitshare.DataDecision.DAL.csproj">
+      <Project>{9FE00521-3A8B-42B1-814E-585E99407B2E}</Project>
+      <Name>Bitshare.DataDecision.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bitshare.DataDecision.Model\Bitshare.DataDecision.Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Bitshare.DataDecision.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bitshare.DBUtility\Bitshare.DataDecision.DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>Bitshare.DataDecision.DBUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

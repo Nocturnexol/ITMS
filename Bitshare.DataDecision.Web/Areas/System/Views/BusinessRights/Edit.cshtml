@@ -1,0 +1,33 @@
+﻿@model Bitshare.DataDecision.Model.OperationalAuthority
+@{
+    ViewBag.Title = "业务权限-编辑";
+    Layout = "~/Views/Shared/_OperateNew.cshtml";
+    IList<SelectListItem> RightsOptionsList = ViewData["RightsOptionsList"] as IList<SelectListItem>;
+   // IList<SelectListItem> OptionList = ViewData["OptionList"] as IList<SelectListItem>;
+}
+@Html.HiddenFor(modelItem => modelItem.Rid)
+@Html.HiddenFor(modelItem => modelItem.CreateDataUser)
+@Html.HiddenFor(modelItem => modelItem.CreateDataTime)
+
+
+<div class="form-group form-groupm" style="margin-top:10px">
+    <label class="col-sm-2 control-label">
+        业务名称<span style="color: #FF9966"> *</span></label>
+    <div class="col-sm-3">
+        @Html.TextBoxFor(modelItem => modelItem.OperRational_Name, new { @placeholder = "业务名称", @class = "form-control", @required = "",@readonly="readonly" })
+    </div>
+    <label class="col-sm-2 control-label">
+        权限描述<span style="color: #FF9966"> *</span></label>
+    <div class="col-sm-3">
+        @Html.DropDownList("Rights_select", RightsOptionsList, new { multiple = "multiple",@data_placeholder = "请选择节点", @class = "chosen-select" })
+    </div>
+</div>
+<div class="form-group form-groupm">
+  
+    <label class="col-sm-2 control-label">
+        备注</label>
+    <div class="col-sm-8">
+        @Html.TextBoxFor(modelItem => modelItem.Remark, new { @placeholder = "备注", @class = "form-control" })
+    </div>
+</div>
+

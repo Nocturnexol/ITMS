@@ -1,0 +1,74 @@
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Common.pdb
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.BLL.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DAL.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Model.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\NPOI.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\NPOI.OOXML.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\NPOI.OpenXml4Net.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\OpenSmtp.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DBUtility.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Newtonsoft.Json.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\MySql.Data.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.Common.pdb
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.BLL.pdb
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DAL.pdb
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Model.pdb
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DBUtility.pdb
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\bin\Debug\Newtonsoft.Json.xml
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\obj\Debug\Bitshare.DataDecision.Common.csprojResolveAssemblyReference.cache
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\obj\Debug\Bitshare.DataDecision.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.DataDecision.Common\obj\Debug\Bitshare.DataDecision.Common.pdb
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Common.pdb
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.BLL.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DAL.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Model.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\NPOI.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\NPOI.OOXML.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\NPOI.OpenXml4Net.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\OpenSmtp.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DBUtility.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Newtonsoft.Json.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\MySql.Data.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.Common.pdb
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.BLL.pdb
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DAL.pdb
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Model.pdb
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DBUtility.pdb
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\bin\Debug\Newtonsoft.Json.xml
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\obj\Debug\Bitshare.DataDecision.Common.csprojResolveAssemblyReference.cache
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\obj\Debug\Bitshare.DataDecision.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.DataDecision.Common\obj\Debug\Bitshare.DataDecision.Common.pdb
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Common.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Common.pdb
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.Common.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.BLL.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DAL.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Model.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\NPOI.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\NPOI.OOXML.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\OpenSmtp.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DBUtility.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\MongoDB.Driver.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\MongoDB.Bson.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\MySql.Data.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.Common.pdb
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.BLL.pdb
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DAL.pdb
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.Model.pdb
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Bitshare.DataDecision.DBUtility.pdb
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\obj\Debug\Bitshare.DataDecision.Common.csprojResolveAssemblyReference.cache
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\obj\Debug\Bitshare.DataDecision.Common.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\obj\Debug\Bitshare.DataDecision.Common.pdb

@@ -1,0 +1,34 @@
+﻿@model Bitshare.DataDecision.Model.tblProcessNotice
+@{
+    ViewBag.Title = "流程消息-编辑";
+    Layout = "~/Views/Shared/_OperateNew.cshtml";
+    IEnumerable<SelectListItem> RoleList = ViewData["RoleList"] as IEnumerable<SelectListItem>;
+    IEnumerable<SelectListItem> NodeList = ViewData["NodeList"] as IEnumerable<SelectListItem>;
+    IEnumerable<SelectListItem> ProcessList = ViewData["ProcessList"] as IEnumerable<SelectListItem>;
+}
+@Html.HiddenFor(modelItem => modelItem.Rid)
+<div class="form-group">
+    <label class="col-sm-2 control-label">
+        流程名称<span style="color: #FF9966"> *</span></label>
+    <div class="col-sm-4">
+        @Html.DropDownList("ProcessName", ProcessList, new { @placeholder = "流程名称", @class = "form-control", @required = "" })
+    </div>
+    <label class="col-sm-2 control-label">
+        节点名称<span style="color: #FF9966"> *</span></label>
+    <div class="col-sm-4">
+        @Html.DropDownList("NodeName", NodeList, new { @placeholder = "节点名称", @class = "form-control", @required = "" })
+    </div>
+</div>
+<div class="form-group">
+    <label class="col-sm-2 control-label">
+        通知角色<span style="color: #FF9966"> *</span></label>
+    <div class="col-sm-4">
+        @Html.DropDownList("NoticeRole", RoleList, new { @placeholder = "通知角色", @class = "form-control", @required = "" })
+    </div>
+    <label class="col-sm-2 control-label">
+        备注</label>
+    <div class="col-sm-4">
+        @Html.TextBoxFor(modelItem => modelItem.Remark, new { @placeholder = "备注", @class = "form-control" })
+    </div>
+</div>
+

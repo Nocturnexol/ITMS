@@ -1,0 +1,7 @@
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.Common\bin\Release\Bitshare.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.Common\bin\Release\OpenSmtp.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.Common\obj\Release\Bitshare.Common.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.Common\bin\Release\Bitshare.Common.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.Common\bin\Release\OpenSmtp.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.Common\obj\Release\Bitshare.Common.csprojResolveAssemblyReference.cache
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.Common\obj\Release\Bitshare.Common.dll

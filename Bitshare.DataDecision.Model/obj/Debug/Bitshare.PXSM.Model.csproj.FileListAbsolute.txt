@@ -1,0 +1,8 @@
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Model\bin\Debug\Bitshare.PXSM.Model.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Model\bin\Debug\Bitshare.PXSM.Model.pdb
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Model\obj\Debug\Bitshare.PXSM.Model.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Model\obj\Debug\Bitshare.PXSM.Model.pdb
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PXSM.Model\bin\Debug\Bitshare.PXSM.Model.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PXSM.Model\bin\Debug\Bitshare.PXSM.Model.pdb
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PXSM.Model\obj\Debug\Bitshare.PXSM.Model.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.PXSM.Model\obj\Debug\Bitshare.PXSM.Model.pdb

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title -@Bitshare.Common.UseTools.GetProjectTitle()</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    @RenderSection("header", required: false)
+    <!--[if lt IE 9]>
+    @Scripts.Render("~/Resource/js/html5.js")
+    @Scripts.Render("~/Resource/js/respond.min.js")
+    @Scripts.Render("~/Resource/js/PIE_IE678.js")
+    <![endif]-->
+    @Scripts.Render("~/Resource/css/jquery-ui.min.css")
+    @Scripts.Render("~/Resource/css/ui.jqgrid-bootstrap.css")
+    @Scripts.Render("~/Resource/js/jquery.min.js")
+    @Styles.Render("~/Resource/css/style.min.css")
+    @Styles.Render("~/Resource/css/animate.min.css")
+    @Styles.Render("~/Resource/css/font-awesome.min.css")
+    @Scripts.Render("~/Resource/css/bootstrap.min.css")
+    @Styles.Render("~/Resource/css/iconfont.css")
+    @Scripts.Render("~/Resource/js/bootstrap.min.js")
+    @Scripts.Render("~/Resource/js/plugins/layer/layer.min.js")
+    @Scripts.Render("~/Resource/js/Comm.js")
+    @Scripts.Render("~/Resource/js/json2.js")
+    @Scripts.Render("~/Resource/js/jquery.form.js")
+    @Scripts.Render("~/Resource/js/JQ.js")
+    <script type="text/javascript">
+        $(function () {
+            var indx = parent.layer.getFrameIndex(window.name);
+            console.log(indx);
+            $("form:first").ajaxForm({
+                dataType: 'json', // 返回值类型
+                success: function (data) { // ajax回调方法
+                    if (data.IsSuccess) {
+                        parent.layer.alert("保存成功!", { icon: 1 }, function (index) {
+                            parent.layer.close(index);
+                            parent.window.location.reload();
+
+                        });
+                    }
+                    else {
+                        parent.layer.alert("保存失败!" + data.Message, { icon: 2 });
+                    }
+                }
+            });
+            // 设置用ajax方式提交表单
+        });
+    </script>
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>

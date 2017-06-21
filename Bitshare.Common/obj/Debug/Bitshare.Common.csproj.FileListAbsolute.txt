@@ -1,0 +1,54 @@
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Common\bin\Debug\Bitshare.Common.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Common\bin\Debug\Bitshare.Common.pdb
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Common\bin\Debug\COM.Excel.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Common\bin\Debug\Excel.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Common\bin\Debug\OpenSmtp.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Common\bin\Debug\OWC10Chart.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Common\obj\Debug\Bitshare.Common.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Common\obj\Debug\Bitshare.Common.pdb
+C:\公司项目代码文件\上海公交广告候车设施管理系统\Common\obj\Debug\Bitshare.Common.csprojResolveAssemblyReference.cache
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.Common\bin\Debug\Bitshare.Common.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.Common\bin\Debug\Bitshare.Common.pdb
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.Common\bin\Debug\COM.Excel.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.Common\bin\Debug\Excel.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.Common\bin\Debug\OpenSmtp.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.Common\obj\Debug\Bitshare.Common.csprojResolveAssemblyReference.cache
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.Common\obj\Debug\Bitshare.Common.dll
+C:\公司项目代码文件\杭州公交系统\杭州媒体管理系统（新）\Bitshare.Common\obj\Debug\Bitshare.Common.pdb
+C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.Common\bin\Debug\Bitshare.Common.dll
+C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.Common\bin\Debug\Bitshare.Common.pdb
+C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.Common\bin\Debug\COM.Excel.dll
+C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.Common\bin\Debug\Excel.dll
+C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.Common\bin\Debug\OpenSmtp.dll
+C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.Common\obj\Debug\Bitshare.Common.csprojResolveAssemblyReference.cache
+C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.Common\obj\Debug\Bitshare.Common.dll
+C:\公司项目代码文件\广告媒体管理系统（新）\Bitshare.Common\obj\Debug\Bitshare.Common.pdb
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.Common\bin\Debug\Bitshare.Common.dll
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.Common\bin\Debug\Bitshare.Common.pdb
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.Common\bin\Debug\OpenSmtp.dll
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.Common\obj\Debug\Bitshare.Common.csprojResolveAssemblyReference.cache
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.Common\obj\Debug\Bitshare.Common.dll
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.Common\obj\Debug\Bitshare.Common.pdb
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.Common\bin\Debug\Bitshare.Common.dll
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.Common\bin\Debug\Bitshare.Common.pdb
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.Common\bin\Debug\OpenSmtp.dll
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.Common\obj\Debug\Bitshare.Common.dll
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.Common\obj\Debug\Bitshare.Common.pdb
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.Common\obj\Debug\Bitshare.Common.csprojResolveAssemblyReference.cache
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.Common\bin\Debug\Bitshare.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.Common\bin\Debug\Bitshare.Common.pdb
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.Common\bin\Debug\OpenSmtp.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.Common\obj\Debug\Bitshare.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.Common\obj\Debug\Bitshare.Common.pdb
+D:\公司项目代码文件\预计到站数据决策系统\Bitshare.Common\obj\Debug\Bitshare.Common.csprojResolveAssemblyReference.cache
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.Common\bin\Debug\Bitshare.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.Common\bin\Debug\Bitshare.Common.pdb
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.Common\bin\Debug\OpenSmtp.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.Common\obj\Debug\Bitshare.Common.csprojResolveAssemblyReference.cache
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.Common\obj\Debug\Bitshare.Common.dll
+D:\公司项目代码文件\预计到站数据决策系统\新建文件夹\Bitshare.Common\obj\Debug\Bitshare.Common.pdb
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.Common\bin\Debug\Bitshare.Common.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.Common\bin\Debug\Bitshare.Common.pdb
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.Common\bin\Debug\OpenSmtp.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.Common\obj\Debug\Bitshare.Common.dll
+C:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.Common\obj\Debug\Bitshare.Common.pdb

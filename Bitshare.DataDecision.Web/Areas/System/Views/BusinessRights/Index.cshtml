@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "业务权限";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.SecondItem = "业务权限";
+    ViewBag.AddUrl = "/System/BusinessRights/Create";
+    ViewBag.EditUrl = "/System/BusinessRights/Edit/";
+    ViewBag.DeleteUrl = "/BusinessRights/DataDel";
+    ViewBag.ExportUrl = "/System/BusinessRights/DeriveData";
+}
+<script type="text/javascript">
+    $(function () {
+        var config = {
+            url: '/BusinessRights/GetJqGridDataList',
+            postData: { keyword: $("#keyword").val() },
+            colNames: ['主键', '业务名', '权限描述',  '备注', '操作'],
+            colModel: [
+                        { name: 'Rid', index: 'Rid', width: 60, key: true, hidden: true },
+                        { name: 'OperRational_Name', index: 'OperRational_Name', width: 50, align: "center" },
+                        { name: 'RightsOptions', index: 'RightsOptions', width: 50, align: "center" },
+                       // { name: 'Options', index: 'Options', width: 55, align: "center", formatter: function (a) { if (a) return "多选"; else return "单选"; } },
+                        { name: 'Remark', index: 'Remark', width: 55, align: "center" },
+                        { name: 'Rid', index: 'Rid', title: false, sortable: false, width: 30, align: "center", formatter: function (id, a, b) {
+                            return "<a title='编辑' href='javascript:;' onclick='edit(\"" + id + "\")' style='text-decoration:none'><i class='Hui-iconfont'>&#xe6df;</i></a> "
+                                 + "<a title='删除' href='javascript:;' onclick='delSingleRow(\"" + id + "\")' class='ml-5' style='text-decoration:none'><i class='Hui-iconfont'>&#xe6e2;</i></a>";
+                        }
+                        }
+                ]
+        };
+        JQ.InitTable(config);
+    });
+
+</script>
+@section Search {
+    <input id="keyword" name="keyword" type="text" class="input form-control" placeholder="业务名" />
+}

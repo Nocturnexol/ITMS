@@ -1,0 +1,33 @@
+﻿@using Bitshare.DataDecision.Model
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "模块管理";
+    List<string> BtnList = ViewBag.BtnList as List<string>;
+}
+<script type="text/javascript">
+
+    $(function () {
+        var config = {
+            title: '模块管理',
+            url: '/System/Advertising/GetPageResult',
+            col: [
+                    { name: "主键", index: "Rid", width: 60, key: true, hidden: true },
+                    { name: "订单号", index: "AdOrderId", width: 65, align: "center" },
+                    { name: "客户名称", index: "AdClientele", width: 65, align: "center" },
+                    { name: "广告品牌", index: "AdContent", width: 65, align: "center", sortable: false },
+                    { name: "签约日期", index: "ContractSureDate", width: 65, align: "center", sortable: false, formatter: "date" },
+                    { name: "结束日期", index: "InsureEndDate", width: 65, align: "center", sortable: false, formatter: "date" },
+                    { name: "业务员", index: "Seller", width: 65, align: "center", sortable: false }
+                 ]
+        };
+        JQ.InitGrid(config);
+    });
+</script>
+@section Search {
+    <label class="col-sm-9 control-label" style="margin-top: 5px;">
+        关键字</label>
+    <div class="col-sm-12" style="z-index: 980;">
+        @Html.TextBox("keyword", "", new { @class = "form-control", placeholder = "订单号" })
+    </div>
+}
+

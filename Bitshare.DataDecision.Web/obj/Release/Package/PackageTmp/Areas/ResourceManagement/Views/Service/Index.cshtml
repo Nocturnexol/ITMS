@@ -1,0 +1,95 @@
+﻿@using Bitshare.DataDecision.Model;
+@using Bitshare.DataDecision.Common
+@using Bitshare.DataDecision.Service.Enum
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "服务管理";
+    IEnumerable<SelectListItem> DepartList = ViewData["DepartList"] as IEnumerable<SelectListItem>;
+    List<string> BtnList = ViewBag.BtnList ?? new List<string>();
+    ViewBag.SecondItem = "服务管理";
+    ViewBag.FirstItem = "系统管理";
+    ViewBag.AddUrl = "/ResourceManagement/Service/Create";
+    ViewBag.EditUrl = "/ResourceManagement/Service/Edit/";
+    ViewBag.DeleteUrl = "/ResourceManagement/Service/Delete";
+    ViewBag.ExportUrl = "/ResourceManagement/Service/DeriveData";
+}
+<style>
+    #ok {
+        float: right;
+        margin-top: 5px;
+        width: 66px;
+    }
+</style>
+<script type="text/javascript">
+    $(function () {
+        var config = {
+            title: '服务列表',
+            url: '/Service/GetServiceList',
+            postData: { keyword: $("#searchTxt").val() },
+
+            colNames: ['主键', '服务类型', '服务地址','服务说明','服务版本','依赖的服务','部署位置','备注', '操作'],
+            colModel: [
+                { name: 'Rid', index: 'Rid', width: 60, key: true, hidden: true },
+
+                { name: 'Type', index: 'Type', width: 55, align: "center" },
+
+                { name: 'Address', index: 'Address', width: 55, align: "center" },
+                { name: 'Description', index: 'Description', width: 55, align: "center" },
+                { name: 'Version', index: 'Version', width: 55, align: "center" },
+                { name: 'Dependency', index: 'Dependency', width: 55, align: "center" },
+                { name: 'DeployLocale', index: 'DeployLocale', width: 55, align: "center" },
+            { name: 'Remark', index: 'Remark', width: 55, align: "center" }
+                ,
+                {
+                    name: 'Rid', index: 'Rid', title: false, width: 30, sortable: false, align: "center", formatter: function (id) {
+                        return "<a title='编辑' href='javascript:;' onclick='editFull(\"" + id + "\")' style='text-decoration:none'><i class='Hui-iconfont'>&#xe6df;</i></a>"
+                            + "<a title='删除' href='javascript:;' onclick='delSingleRow(\"" + id + "\")' class='ml-5' style='text-decoration:none'><i class='Hui-iconfont'>&#xe6e2;</i></a>";
+                    }
+                }
+
+            ]
+        };
+        JQ.InitTable(config);
+
+        var index = parent.layer.getFrameIndex(window.name); //获取窗口索引
+        console.log(index);
+        $('#ok').click(function () {
+            var rowArr = $("#jqGridList").jqGrid("getGridParam", "selarrrow");
+            if (rowArr.length !== 1) {
+                parent.layer.msg('请选择一条数据！', { icon: 0 });
+                return;
+            }
+            var rowId = $("#jqGridList").jqGrid("getGridParam", "selrow");
+            var rowData = $("#jqGridList").jqGrid("getRowData", rowId);
+            parent.$('#Dependency').val(rowId);
+            parent.layer.close(index);
+        });
+    });
+</script>
+@if (ViewBag.isDependency != null && ViewBag.isDependency)
+{
+    <a id="ok" class="btn btn-warning">确定</a>
+}
+@section Search {
+   <div>
+       <label> 服务类型</label>   
+     @Html.DropDownList("Type", ViewBag.ServiceList as List<SelectListItem>, "-请选择-", new { placeholder = "服务类型", @class = "form-control" })
+</div><br />
+<div>
+    <label> 服务地址</label>
+    @Html.TextBox("Address", null, new { placeholder = "服务地址", @class = "form-control" })
+    </div><br />
+<div>
+    <label> 服务说明</label>
+    @Html.TextBox("Description", null, new { placeholder = "服务说明", @class = "form-control" })
+    </div><br />
+<div>
+    <label> 服务版本</label>
+    @Html.TextBox("Version", null, new { placeholder = "服务版本", @class = "form-control" })
+    </div><br />
+<div>
+    <label> 依赖的服务</label>
+    @Html.TextBox("Dependency", null, new { placeholder = "依赖的服务", @class = "form-control" })
+</div><br />
+
+}

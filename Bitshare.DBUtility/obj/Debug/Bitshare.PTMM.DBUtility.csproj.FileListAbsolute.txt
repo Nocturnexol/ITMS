@@ -1,0 +1,12 @@
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\bin\Debug\Bitshare.PTMM.DBUtility.dll
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\bin\Debug\Bitshare.PTMM.DBUtility.pdb
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\bin\Debug\MySql.Data.dll
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\obj\Debug\Bitshare.PTMM.DBUtility.csprojResolveAssemblyReference.cache
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\obj\Debug\Bitshare.PTMM.DBUtility.dll
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\obj\Debug\Bitshare.PTMM.DBUtility.pdb
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\bin\Debug\Bitshare.PTMM.DBUtility.dll
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\bin\Debug\Bitshare.PTMM.DBUtility.pdb
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\bin\Debug\MySql.Data.dll
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\obj\Debug\Bitshare.PTMM.DBUtility.dll
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\obj\Debug\Bitshare.PTMM.DBUtility.pdb
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.DBUtility\obj\Debug\Bitshare.PTMM.DBUtility.csprojResolveAssemblyReference.cache

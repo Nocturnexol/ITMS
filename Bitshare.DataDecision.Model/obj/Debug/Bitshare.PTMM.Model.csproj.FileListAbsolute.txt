@@ -1,0 +1,8 @@
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.PTMM.Model\bin\Debug\Bitshare.PTMM.Model.dll
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.PTMM.Model\bin\Debug\Bitshare.PTMM.Model.pdb
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.PTMM.Model\obj\Debug\Bitshare.PTMM.Model.dll
+C:\公司项目代码文件\广告媒体管理系统\Bitshare.PTMM.Model\obj\Debug\Bitshare.PTMM.Model.pdb
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.PTMM.Model\bin\Debug\Bitshare.PTMM.Model.dll
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.PTMM.Model\bin\Debug\Bitshare.PTMM.Model.pdb
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.PTMM.Model\obj\Debug\Bitshare.PTMM.Model.dll
+G:\新建文件夹\公司项目代码文件\广告媒体管理系统\Bitshare.PTMM.Model\obj\Debug\Bitshare.PTMM.Model.pdb

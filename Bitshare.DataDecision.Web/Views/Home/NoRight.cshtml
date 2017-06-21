@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="refresh" content="3;url='/Home/MainPage'" />
+    <title>无访问权限</title>
+    <style type="text/css">
+        .text
+        {
+            color: #333333;
+            font-family: '微软雅黑 Regular' , '微软雅黑';
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="text" style="width: 280px; height: 180px; margin: 150px auto;">
+        <img src="~/Images/lock.png" style="margin-left: 60px;" alt="" /><br />
+        <div style="margin-top:24px;">
+            <span>抱歉，您无当前页面访问权限！！！</span><br />
+        </div>
+        <div style="margin-top:12px;">
+            <span id="timeId">3</span><span>&nbsp;秒后将自动跳转到</span>&nbsp;&nbsp;<a href="/Home/MainPage">首 页</a>
+        </div>
+    </div>
+</body>
+</html>

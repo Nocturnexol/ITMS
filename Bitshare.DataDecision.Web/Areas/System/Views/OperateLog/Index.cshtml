@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<string> BtnList = ViewBag.BtnList as List<string>;
+}
+<script type="text/javascript">
+    $(function () {
+        var config = {
+            title: '操作日志',
+            url: '/System/OperateLog/GetDataList',
+            postData: { keyword: $("#searchTxt").val() },
+            colNames: ['主键', '登录名', '用户名', '操作方式', '操作内容', '操作时间'],
+            colModel: [
+                        { name: 'Rid', index: 'Rid', width: 60, key: true, hidden: true },
+                        { name: 'LoginName', index: 'LoginName', width: 35, align: "center" },
+                        { name: 'UserName', index: 'UserName', width: 35, align: "center" },
+                        { name: 'ChangeMode', index: 'ChangeMode', width: 35, align: "center" },
+                        { name: 'Content', index: 'Content', width: 180, align: "center", sortable: false },
+                        { name: 'OperateTime', index: 'OperateTime', width: 35, align: "center", formatter: "date", formatoptions: { srcformat: 'Y-m-d H:i', newformat: 'Y-m-d H:i'} }
+                ]
+        };
+        JQ.InitTable(config);
+
+    });
+ 
+</script>
+@section Search {
+    <input id="keyword" type="text" class="input form-control" placeholder="操作内容/登录名" name="keyword" />
+}

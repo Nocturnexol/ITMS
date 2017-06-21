@@ -1,0 +1,47 @@
+﻿@using Bitshare.DataDecision.Model;
+@using Bitshare.DataDecision.Common
+@{
+    ViewBag.Title = "流程消息";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.SecondItem = "流程消息";
+    List<string> BtnList = ViewBag.BtnList as List<string>;
+    ViewBag.AddUrl = "/System/ProcessNotice/Create";
+    ViewBag.EditUrl = "/System/ProcessNotice/Edit/";
+    ViewBag.DeleteUrl = "/System/ProcessNotice/DataDel";
+    ViewBag.ExportUrl = "/System/ProcessNotice/DeriveData";
+}
+<script type="text/javascript">
+  $(function () {
+        var config = {
+            title: '流程消息',
+            url: '/ProcessNotice/GetJqGridDataList',
+            postData: { ProcessName: $("#ProcessName").val() },
+           
+            col: [
+                        { name: '主键', index: 'Rid', width: 60, key: true, hidden: true },
+                     
+                        { name: '流程名称', index: 'ProcessName', width: 50, align: "center" },
+                       
+                        { name: '节点名称', index: 'NodeName', width: 50, align: "center" },
+                        
+                        { name: '通知角色', index: 'NoticeRole', width: 50, align: "center" },
+                        { name: '备注', index: 'Remark', width: 55, align: "center" }
+                        @if (BtnList.Contains("编辑") || BtnList.Contains("删除"))
+                        {<text>,
+                        { name: '操作', index: 'Rid', title: false, sortable: false, width: 30, align: "center", formatter: function (id, a, b) {
+                            return "</text>if (BtnList.Contains("编辑"))
+                                       {<text><a title='编辑' href='javascript:;' onclick='edit(\"" + id + "\")' style='text-decoration:none'><i class='Hui-iconfont'>&#xe6df;</i></a></text>}<text> "
+
+                        + "</text>if (BtnList.Contains("删除"))
+                                       {<text><a title='删除' href='javascript:;' onclick='delSingleRow(\"" + id + "\")' class='ml-5' style='text-decoration:none'><i class='Hui-iconfont'>&#xe6e2;</i></a></text>}<text>";
+                        } 
+                        }</text>}
+                ]
+        };
+        JQ.InitGrid(config);
+      
+    });
+</script>
+@section Search {
+    <input id="ProcessName" name="ProcessName" type="text" class="input form-control" placeholder="流程名称" />
+}

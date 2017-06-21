@@ -1,0 +1,8 @@
+C:\公司项目代码文件\上海公交广告候车设施管理系统\DBUtility\bin\Debug\Bitshare.PXSM.DBUtility.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\DBUtility\bin\Debug\Bitshare.PXSM.DBUtility.pdb
+C:\公司项目代码文件\上海公交广告候车设施管理系统\DBUtility\bin\Debug\IBatisNet.Common.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\DBUtility\bin\Debug\MySql.Data.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\DBUtility\obj\Debug\Bitshare.PXSM.DBUtility.dll
+C:\公司项目代码文件\上海公交广告候车设施管理系统\DBUtility\obj\Debug\Bitshare.PXSM.DBUtility.pdb
+C:\公司项目代码文件\上海公交广告候车设施管理系统\DBUtility\obj\Debug\Bitshare.PXSM.DBUtility.csprojResolveAssemblyReference.cache

@@ -1,0 +1,184 @@
+[19:00:27]System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "DataDecision2016"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, String cmdText, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 863
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 841
+   在 Bitshare.DataDecision.DAL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.DAL\tblUser_Sys.cs:行号 233
+   在 Bitshare.DataDecision.BLL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.BLL\tblUser_Sys.cs:行号 179
+   在 Bitshare.DataDecision.Common.CurrentHelper.get_CurrentUser() 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\CurrentHelper.cs:行号 84
+   在 Bitshare.DataDecision.Common.FlowHelper.GetBtnAuthorityForPage(String Func) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\FlowHelper.cs:行号 96
+ClientConnectionId:18cc61fc-3acc-48a7-8e86-445ca6eabb90
+Error Number:4060,State:1,Class:11
+[19:02:07]System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "DataDecision2016"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, String cmdText, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 863
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 841
+   在 Bitshare.DataDecision.DAL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.DAL\tblUser_Sys.cs:行号 233
+   在 Bitshare.DataDecision.BLL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.BLL\tblUser_Sys.cs:行号 179
+   在 Bitshare.DataDecision.Common.CurrentHelper.get_CurrentUser() 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\CurrentHelper.cs:行号 84
+   在 Bitshare.DataDecision.Common.FlowHelper.GetBtnAuthorityForPage(String Func) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\FlowHelper.cs:行号 96
+ClientConnectionId:a4b7b791-05fa-4f08-aae0-c74c299be793
+Error Number:4060,State:1,Class:11
+[19:06:38]System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "DataDecision2016"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, String cmdText, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 863
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 841
+   在 Bitshare.DataDecision.DAL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.DAL\tblUser_Sys.cs:行号 233
+   在 Bitshare.DataDecision.BLL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.BLL\tblUser_Sys.cs:行号 179
+   在 Bitshare.DataDecision.Common.CurrentHelper.get_CurrentUser() 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\CurrentHelper.cs:行号 84
+   在 Bitshare.DataDecision.Common.FlowHelper.GetBtnAuthorityForPage(String Func) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\FlowHelper.cs:行号 96
+ClientConnectionId:67970ca5-f758-4693-bf1a-cd09bac69a59
+Error Number:4060,State:1,Class:11
+[19:07:10]System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "DataDecision2016"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, String cmdText, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 863
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 841
+   在 Bitshare.DataDecision.DAL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.DAL\tblUser_Sys.cs:行号 233
+   在 Bitshare.DataDecision.BLL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.BLL\tblUser_Sys.cs:行号 179
+   在 Bitshare.DataDecision.Common.CurrentHelper.get_CurrentUser() 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\CurrentHelper.cs:行号 84
+   在 Bitshare.DataDecision.Common.FlowHelper.GetBtnAuthorityForPage(String Func) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\FlowHelper.cs:行号 96
+ClientConnectionId:fe33a98f-a411-4b32-8d15-e9960064218b
+Error Number:4060,State:1,Class:11
+[19:09:03]System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "DataDecision2016"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, String cmdText, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 863
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 841
+   在 Bitshare.DataDecision.DAL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.DAL\tblUser_Sys.cs:行号 233
+   在 Bitshare.DataDecision.BLL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.BLL\tblUser_Sys.cs:行号 179
+   在 Bitshare.DataDecision.Common.CurrentHelper.get_CurrentUser() 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\CurrentHelper.cs:行号 84
+   在 Bitshare.DataDecision.Common.FlowHelper.GetBtnAuthorityForPage(String Func) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\FlowHelper.cs:行号 96
+ClientConnectionId:2cfa30bf-fb02-4bd7-a88f-bfedc0ee8d2e
+Error Number:4060,State:1,Class:11
+[19:10:50]System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "DataDecision2016"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, String cmdText, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 863
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 841
+   在 Bitshare.DataDecision.DAL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.DAL\tblUser_Sys.cs:行号 233
+   在 Bitshare.DataDecision.BLL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.BLL\tblUser_Sys.cs:行号 179
+   在 Bitshare.DataDecision.Common.CurrentHelper.get_CurrentUser() 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\CurrentHelper.cs:行号 84
+   在 Bitshare.DataDecision.Common.FlowHelper.GetBtnAuthorityForPage(String Func) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\FlowHelper.cs:行号 96
+ClientConnectionId:fae2ba72-53e3-47d4-818f-aa5126968fe1
+Error Number:4060,State:1,Class:11
+[19:11:34]System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "DataDecision2016"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, String cmdText, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 863
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 841
+   在 Bitshare.DataDecision.DAL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.DAL\tblUser_Sys.cs:行号 233
+   在 Bitshare.DataDecision.BLL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.BLL\tblUser_Sys.cs:行号 179
+   在 Bitshare.DataDecision.Common.CurrentHelper.get_CurrentUser() 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\CurrentHelper.cs:行号 84
+   在 Bitshare.DataDecision.Common.FlowHelper.GetBtnAuthorityForPage(String Func) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\FlowHelper.cs:行号 96
+ClientConnectionId:78bb77f2-2492-4418-929d-35070e8c4368
+Error Number:4060,State:1,Class:11
+[19:12:40]System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "DataDecision2016"。登录失败。
+用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, String cmdText, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 863
+   在 Bitshare.DataDecision.DBUtility.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DBUtility\DbHelperSQL.cs:行号 841
+   在 Bitshare.DataDecision.DAL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.DAL\tblUser_Sys.cs:行号 233
+   在 Bitshare.DataDecision.BLL.tblUser_Sys.GetModelByLoginName(String loginName) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.BLL\tblUser_Sys.cs:行号 179
+   在 Bitshare.DataDecision.Common.CurrentHelper.get_CurrentUser() 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\CurrentHelper.cs:行号 84
+   在 Bitshare.DataDecision.Common.FlowHelper.GetBtnAuthorityForPage(String Func) 位置 c:\Users\63565\Documents\Tencent Files\3004814399\FileRecv\WebMS\Bitshare.DataDecision.Common\FlowHelper.cs:行号 96
+ClientConnectionId:a5782f9b-e1c3-4193-ab96-16ade7203b39
+Error Number:4060,State:1,Class:11

@@ -1,0 +1,41 @@
+﻿@model Bitshare.DataDecision.Model.tblUser_Sys
+@{
+    Layout = "~/Views/Shared/_OperateNew.cshtml";
+
+    List<SelectListItem> deptList = ViewData["deptList"] as List<SelectListItem>;
+    List<SelectListItem> RoleList = ViewData["RoleList"] as List<SelectListItem>;
+}
+<div class="form-group form-groupm">
+    <label class="col-sm-2 control-label">
+        登录名<span style="color: #FF9966"> *</span></label>
+    <div class="col-sm-4">
+        @Html.TextBoxFor(modelItem => modelItem.Rid, new { @style = "display:none;" })
+        @Html.HiddenFor(modelItem => modelItem.UserPwd)
+        @Html.HiddenFor(modelItem => modelItem.PassWord)
+        @Html.TextBoxFor(modelItem => modelItem.LoginName, new { @placeholder = "登录名", @class = "form-control", @required = "" })
+    </div>
+    <label class="col-sm-2 control-label">
+        用户名<span style="color: #FF9966"> *</span></label>
+    <div class="col-sm-4">
+        @Html.TextBoxFor(modelItem => modelItem.UserName, new { @placeholder = "用户名", @class = "form-control", @required = "" })
+    </div>
+</div>
+<div class="form-group form-groupm">
+    <label class="col-sm-2 control-label">
+        所属部门<span style="color: #FF9966"> *</span></label>
+    <div class="col-sm-4">
+        @Html.DropDownList("dept_New", deptList, new { @class = "form-control", @required = "" })
+    </div>
+    <label class="col-sm-2 control-label">
+        角色<span style="color: #FF9966"> *</span></label>
+    <div class="col-sm-4">
+        @Html.DropDownList("DefaultRoleId", RoleList, new { @class = "form-control", @required = "" })
+    </div>
+</div>
+<div class="form-group form-groupm">
+    <label class="col-sm-2 control-label">
+        备注：</label>
+    <div class="col-sm-10">
+        @Html.TextBoxFor(modelItem => modelItem.Remark, new { placeholder = "备注", @class = "form-control" })
+    </div>
+</div>
