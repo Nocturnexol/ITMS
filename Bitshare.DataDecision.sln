@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitshare.DataDecision.Web", "Bitshare.DataDecision.Web\Bitshare.DataDecision.Web.csproj", "{081E74CE-8559-421C-9130-1A1185F74DB3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitshare.DataDecision.DBUtility", "Bitshare.DBUtility\Bitshare.DataDecision.DBUtility.csproj", "{0988C62E-247F-471F-A183-DB509C7A3839}"
